@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mate Artesanal | Tradición Argentina</title>
+    <meta name="description"
+        content="Mates artesanales de primera calidad. Imperiales, Camioneros y accesorios de lujo.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="#" class="logo">MATE <span class="gold-text">ARTESANAL</span></a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in-up delay-1">Tradición y Elegancia <br> en Cada <span
+                    class="italic-serif gold-text">Sorbo</span></h1>
+            <p class="fade-in-up delay-2">Descubre nuestra colección exclusiva de mates artesanales, hechos a mano con
+                los materiales más nobles.</p>
+            <a href="#catalogo" class="btn btn-primary fade-in-up delay-3">Explorar Colección</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-text fade-in-left">
+                <h2 class="section-title">Nuestra <span class="italic-serif">Esencia</span></h2>
+                <p>En <strong>Mate Artesanal</strong>, fusionamos la ancestral tradición del mate con un diseño
+                    contemporáneo y sofisticado. Cada pieza es seleccionada meticulosamente y trabajada por artesanos
+                    expertos.</p>
+                <p>Utilizamos calabazas de primera selección, cueros legítimos y virolas de alpaca cinceladas a mano
+                    para ofrecerte no solo un mate, sino una experiencia única.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-certificate gold-text"></i>
+                        <span>Calidad Premium</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-hand-holding-heart gold-text"></i>
+                        <span>Hecho a Mano</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-in-right">
+                <!-- Using the hero image again here cropped logic or similar, or just a placeholder for now if I don't have a specific "about" image. 
+                     Actually, I have Product images I can maybe use creatively or just use the Hero one for now differently.
+                     Let's use a nice gradient box or simple placeholder for now as I only made 3 images. 
+                     I will use one of the products floating. -->
+                <div class="image-wrapper">
+                    <img src="images/imperial.png" alt="Mate Imperial Artesanal" class="floating-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalogo" class="catalog section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Colección <span class="italic-serif">Exclusiva</span></h2>
+                <p>Piezas únicas para los amantes del buen mate.</p>
+            </div>
+
+            <div class="catalog-grid">
+                <!-- Product 1 -->
+                <article class="product-card fade-in-up">
+                    <div class="card-image">
+                        <img src="images/imperial.png" alt="Mate Imperial">
+                        <span class="badge">Más Vendido</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Imperial Premium</h3>
+                        <p class="price">$45.000</p>
+                        <p class="description">Calabaza seleccionada, forrado en cuero vaqueta y virola de alpaca
+                            cincelada.</p>
+                        <a href="#contacto" class="btn btn-outline">Consultar</a>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card fade-in-up delay-1">
+                    <div class="card-image">
+                        <img src="images/camionero.png" alt="Mate Camionero">
+                    </div>
+                    <div class="card-content">
+                        <h3>Camionero Algarrobo</h3>
+                        <p class="price">$32.000</p>
+                        <p class="description">Madera de algarrobo estacionada, boca ancha y virola de acero inoxidable.
+                        </p>
+                        <a href="#contacto" class="btn btn-outline">Consultar</a>
+                    </div>
+                </article>
+
+                <!-- Product 3 (Placeholder for layout balance) -->
+                <article class="product-card fade-in-up delay-2">
+                    <div class="card-image">
+                        <!-- Reusing Imperial for demo purposes as I only gen'd 2 products -->
+                        <img src="images/imperial.png" alt="Mate Torpedo">
+                    </div>
+                    <div class="card-content">
+                        <h3>Torpedo Cincelado</h3>
+                        <p class="price">$38.000</p>
+                        <p class="description">Forma ergonómica, cuero negro y detalles de lujo en alpaca.</p>
+                        <a href="#contacto" class="btn btn-outline">Consultar</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact section-padding">
+        <div class="container">
+            <div class="contact-wrapper glass">
+                <div class="contact-info">
+                    <h2 class="section-title">Hablemos</h2>
+                    <p>¿Tenés alguna duda o querés personalizar tu mate? Escribinos.</p>
+
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fab fa-whatsapp gold-text"></i>
+                            <a href="https://wa.me/123456789" target="_blank">+54 9 11 1234-5678</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram gold-text"></i>
+                            <a href="https://instagram.com" target="_blank">@mateartesanal</a>
+                        </li>
+                        <li>
+                            <i class="far fa-envelope gold-text"></i>
+                            <a href="mailto:info@mateartesanal.com">info@mateartesanal.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Tu Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2024 Mate Artesanal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5491112345678" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <script src="script.js"></script>
+</body>
+
+</html>
